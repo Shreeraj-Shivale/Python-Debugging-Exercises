@@ -1,0 +1,44 @@
+[
+  {
+    "id": "C001",
+    "name": "Acme Corp",
+    "email": "accounts@acmecorp.com",
+    "tax_rate": 0.08,
+    "payment_terms": "net30",
+    "line_items": [
+      { "name": "SaaS License", "quantity": 5, "unit_price": 99.00, "discount": 0.10 },
+      { "name": "Support Package", "quantity": 1, "unit_price": 250.00, "discount": 0.0 }
+    ]
+  },
+  {
+    "id": "C002",
+    "name": "Globex Industries",
+    "email": "billing@globex.io",
+    "tax_rate": 0.0,
+    "payment_terms": "net15",
+    "line_items": [
+      { "name": "API Calls", "quantity": 10000, "unit_price": 0.002, "discount": 0.0 },
+      { "name": "SaaS License", "quantity": 2, "unit_price": 99.00, "discount": 0.0 }
+    ]
+  },
+  {
+    "id": "C003",
+    "name": "Initech LLC",
+    "email": "finance@initech.com",
+    "tax_rate": 0.05,
+    "payment_terms": "net60",
+    "line_items": [
+      { "name": "Consulting", "quantity": 8, "unit_price": 175.00, "discount": 0.0 }
+    ]
+  },
+  {
+    "id": "C004",
+    "name": "No Email Corp",
+    "email": "",
+    "tax_rate": 0.08,
+    "payment_terms": "net30",
+    "line_items": [
+      { "name": "SaaS License", "quantity": 1, "unit_price": 99.00, "discount": 0.0 }
+    ]
+  }
+]
